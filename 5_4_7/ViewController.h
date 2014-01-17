@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+#import <AVFoundation/AVFoundation.h>
+
+@interface ViewController : UIViewController <UITableViewDelegate , UITableViewDataSource, AVAudioRecorderDelegate>
+
+@property (weak, nonatomic) IBOutlet UITableView *table;
+
+@property (weak, nonatomic) IBOutlet UILabel *status;
+
+
+-(IBAction)toggleRecording:(id)sender;
 
 @end

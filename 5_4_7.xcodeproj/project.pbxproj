@@ -21,6 +21,7 @@
 		00AA40F01888EE74006F1237 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AA40D21888EE74006F1237 /* UIKit.framework */; };
 		00AA40F81888EE74006F1237 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 00AA40F61888EE74006F1237 /* InfoPlist.strings */; };
 		00AA40FA1888EE74006F1237 /* __4_7Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00AA40F91888EE74006F1237 /* __4_7Tests.m */; };
+		00AA41041888EE86006F1237 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00AA41031888EE86006F1237 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		00AA40F51888EE74006F1237 /* 5_4_7Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "5_4_7Tests-Info.plist"; sourceTree = "<group>"; };
 		00AA40F71888EE74006F1237 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		00AA40F91888EE74006F1237 /* __4_7Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __4_7Tests.m; sourceTree = "<group>"; };
+		00AA41031888EE86006F1237 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00AA41041888EE86006F1237 /* AVFoundation.framework in Frameworks */,
 				00AA40D11888EE74006F1237 /* CoreGraphics.framework in Frameworks */,
 				00AA40D31888EE74006F1237 /* UIKit.framework in Frameworks */,
 				00AA40CF1888EE74006F1237 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		00AA40CD1888EE74006F1237 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				00AA41031888EE86006F1237 /* AVFoundation.framework */,
 				00AA40CE1888EE74006F1237 /* Foundation.framework */,
 				00AA40D01888EE74006F1237 /* CoreGraphics.framework */,
 				00AA40D21888EE74006F1237 /* UIKit.framework */,
